@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: create-apache-vm-20
+  description: launch vm create
+  annotations:
+    backstage.io/kubernetes-id: create-apache-vm-20
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/create-apache-vm-20
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
